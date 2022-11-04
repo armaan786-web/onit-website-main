@@ -1,0 +1,5 @@
+export const PLEASE_ENTER_MOBILE_NUMBER = 'Please enter mobile number'
+export const MOBILE_NUMBER_TEN_CHARACTERS = 'Mobile number should be exact 10 numbers'
+export const OTP_SENT_SUCCESSFULLY = 'Otp is sent successfully'
+export const OTP_NOT_ENTERED = 'Otp is not entered'
+export const LOGGED_IN_SUCCESSFULLY = 'Logged in successfully'

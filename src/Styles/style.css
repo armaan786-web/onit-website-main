@@ -1,0 +1,36 @@
+.fw-700 {
+    font-weight: 700;
+}
+
+.color-red {
+    color: red;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.add-service-button {
+    display: flex;
+    justify-content: end;
+    padding: 16px 0px;
+}
+
+.aadhar-upload-button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.add-button-div {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 11px;
+}
+
+.text-transform-none {
+    text-transform: none !important;
+}
+
+.d-flex {
+    display: flex;
+}
