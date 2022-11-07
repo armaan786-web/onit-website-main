@@ -30,7 +30,7 @@ function axiosInterceptor(props, adminState, centerOnboardState) {
             })
           )
           // history.push("/admin-login")
-          window.location.replace("http://onit.fit/#/admin-login");
+          window.location.replace("http://local:host/#/admin-login");
         } else if (centerOnboardState?.centerOnboardDetails?.name) {
           props.dispatch(
             CenterOnboardSetLoginDetails({
@@ -42,7 +42,7 @@ function axiosInterceptor(props, adminState, centerOnboardState) {
             })
           )
           // history.push("/admin-login")
-          window.location.replace("http://onit.fit/#/admin-login");
+          window.location.replace("http://localhost:3000/#/admin-login");
         } else {
           props.dispatch(
             UserSetLoginDetails({
@@ -54,7 +54,7 @@ function axiosInterceptor(props, adminState, centerOnboardState) {
             }),
           )
           // history.push("/login")
-          window.location.replace("http://onit.fit/#/login");
+          window.location.replace("http://localhost:3000/#/login");
 
         }
       }
